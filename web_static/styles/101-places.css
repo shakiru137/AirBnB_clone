@@ -17,7 +17,7 @@ article {
   padding-top: 10px;
   padding-right: 20px;
   padding-left: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
   margin: 20px;
 
   border: 1px solid #ff5a5f;
@@ -94,15 +94,67 @@ h1 {
   font-size: 30px;
 }
 
-article h2 {
+article .amenities {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.article_subtitle {
+  font-size: 16px;
+  text-align: left;
+  width: 100%;
+  border-bottom: 1px solid #dddddd;
+  padding: 0px;
+  margin: 0px;
+  padding-bottom: 10px;
+}
+
+.article_title {
   font-size: 30px;
   margin: 10px auto;
   padding: 0px;
 }
 
+article ul {
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+article li {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-content: flex-start;
+  margin-bottom: 10px;
+}
+
+.reviews {
+  margin-top: 40px;
+  width: 100%;
+}
+
+.review_item {
+  margin-bottom: 10px;
+}
+
+.review_text {
+  margin: 0px;
+}
+
+article h3 {
+  font-size: 14px;
+  padding: 0px;
+  margin: 0px;
+  margin-bottom: 5px;
+}
+
 .guest_icon {
   display: inline-block;
-  background-image: url("../images/icon_group.png");
+  background-image: url("../images/group.png");
   background-repeat: no-repeat;
   background-position: center;
   width: 50px;
@@ -111,7 +163,7 @@ article h2 {
 
 .bed_icon {
   display: inline-block;
-  background-image: url("../images/icon_bed.png");
+  background-image: url("../images/bed.png");
   background-repeat: no-repeat;
   background-position: center;
   width: 50px;
@@ -120,9 +172,39 @@ article h2 {
 
 .bath_icon {
   display: inline-block;
-  background-image: url("../images/icon_bath.png");
+  background-image: url("../images/bath.png");
   background-repeat: no-repeat;
   background-position: center;
   width: 50px;
   height: 50px;
+}
+
+.tv_icon {
+  display: inline-block;
+  background-image: url("../images/icon_tv.png");
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+
+  margin-right: 10px;
+}
+
+.wifi_icon {
+  display: inline-block;
+  background-image: url("../images/icon_wifi.png");
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+
+  margin-right: 10px;
+}
+
+.pet_icon {
+  display: inline-block;
+  background-image: url("../images/icon_pets.png");
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+
+  margin-right: 10px;
 }
